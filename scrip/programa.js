@@ -1,8 +1,8 @@
 // carrusel usando arrays
 document.addEventListener("DOMContentLoaded", () => {
     const images = [
-        "../images/baan1.jpg",
-        "../images/baan2.jpg"
+        "images/baan1.jpg",
+        "images/baan2.jpg"
     ];
 
     const banner = document.getElementById("ban");
@@ -97,4 +97,5 @@ input.addEventListener("keypress", function (e) {
 // Click en la lupa
 if (btnSearch) {
     btnSearch.addEventListener("click", buscarProducto);
+
 }
