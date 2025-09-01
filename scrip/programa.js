@@ -34,44 +34,44 @@ const btnSearch = document.querySelector("#container .btn"); // <- botón lupa
 
 // Diccionario de palabras clave y rutas
 const rutas = {
-    "velas": "/pages/productos.html#ir_velasDecorativas",
-    "vela": "/pages/productos.html#ir_velasDecorativas",
-    "jabon": "/pages/productos.html#ir_cuidadoPersonal",
-    "jabones": "/pages/productos.html#ir_cuidadoPersonal",
+    "velas": "pages/productos.html#ir_velasDecorativas",
+    "vela": "pages/productos.html#ir_velasDecorativas",
+    "jabon": "pages/productos.html#ir_cuidadoPersonal",
+    "jabones": "pages/productos.html#ir_cuidadoPersonal",
 
-    "aromatizadores": "/pages/productos.html#ir_aromatizadores",
-    "dulzura de cerezo": "/pages/productos/dulzuraDeCerezo.html",
-    "rosa espiral": "/pages/productos/rosaEspiral.html",
-    "aromatizador dulzura de cerezo": "/pages/productos/dulzuraDeCerezo.html",
-    "aromatizador rosa espiral": "/pages/productos/rosaEspiral.html",
+    "aromatizadores": "pages/productos.html#ir_aromatizadores",
+    "dulzura de cerezo": "pages/productos/dulzuraDeCerezo.html",
+    "rosa espiral": "pages/productos/rosaEspiral.html",
+    "aromatizador dulzura de cerezo": "pages/productos/dulzuraDeCerezo.html",
+    "aromatizador rosa espiral": "pages/productos/rosaEspiral.html",
 
-    "tulipan": "/pages/productos/tulipan.html",
-    "ramo tulipan": "/pages/productos/ramoTulipan.html",
-    "flor de hibisco": "/pages/productos/florHibisco.html",
-    "vela rosa": "/pages/productos/velaRosa.html",
-    "cactus": "/pages/productos/cactusSimple.html",
-    "cactus simple": "/pages/productos/cactusSimple.html",
-    "cactus hawaiano": "/pages/productos/cactusHawaiano.html",
-    "jardín en pote": "/pages/productos/jardinPote.html",
-    "jardin en pote": "/pages/productos/jardinPote.html",
-    "vela gatuno": "/pages/productos/velaGato.html",
+    "tulipan": "pages/productos/tulipan.html",
+    "ramo tulipan": "pages/productos/ramoTulipan.html",
+    "flor de hibisco": "pages/productos/florHibisco.html",
+    "vela rosa": "pages/productos/velaRosa.html",
+    "cactus": "pages/productos/cactusSimple.html",
+    "cactus simple": "pages/productos/cactusSimple.html",
+    "cactus hawaiano": "pages/productos/cactusHawaiano.html",
+    "jardín en pote": "pages/productos/jardinPote.html",
+    "jardin en pote": "pages/productos/jardinPote.html",
+    "vela gatuno": "pages/productos/velaGato.html",
 
-    "vela tulipan": "/pages/productos/tulipan.html",
-    "vela ramo tulipan": "/pages/productos/ramoTulipan.html",
-    "vela flor de hibisco": "/pages/productos/florHibisco.html",
-    "vela cactus": "/pages/productos/cactusSimple.html",
-    "vela cactus hawaiano": "/pages/productos/cactusHawaiano.html",
-    "vela osito": "/pages/productos/velaOsitos.html",
-    "vela jardin en pote": "/pages/productos/jardinPote.html",
-    "vela angel gatuno": "/pages/productos/velaGato.html",
-    "vela ángel gatuno": "/pages/productos/velaGato.html",
+    "vela tulipan": "pages/productos/tulipan.html",
+    "vela ramo tulipan": "pages/productos/ramoTulipan.html",
+    "vela flor de hibisco": "pages/productos/florHibisco.html",
+    "vela cactus": "pages/productos/cactusSimple.html",
+    "vela cactus hawaiano": "pages/productos/cactusHawaiano.html",
+    "vela osito": "pages/productos/velaOsitos.html",
+    "vela jardin en pote": "pages/productos/jardinPote.html",
+    "vela angel gatuno": "pages/productos/velaGato.html",
+    "vela ángel gatuno": "pages/productos/velaGato.html",
 
-    "jabon corporal artesanal": "/pages/productos/jabonCorporal.html",
-    "jabon corporal": "/pages/productos/jabonCorporal.html",
-    "mini corazoncitos": "/pages/productos/miniCorazon.html",
-    "jabon mini corazoncitos": "/pages/productos/miniCorazon.html",
-    "mini corazoncito": "/pages/productos/miniCorazon.html",
-    "jabon mini corazoncito": "/pages/productos/miniCorazon.html",
+    "jabon corporal artesanal": "pages/productos/jabonCorporal.html",
+    "jabon corporal": "pages/productos/jabonCorporal.html",
+    "mini corazoncitos": "pages/productos/miniCorazon.html",
+    "jabon mini corazoncitos": "pages/productos/miniCorazon.html",
+    "mini corazoncito": "pages/productos/miniCorazon.html",
+    "jabon mini corazoncito": "pages/productos/miniCorazon.html",
 };
 
 // Función que procesa la búsqueda
@@ -99,3 +99,4 @@ if (btnSearch) {
     btnSearch.addEventListener("click", buscarProducto);
 
 }
+
